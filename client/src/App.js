@@ -49,6 +49,7 @@ function App() {
 
   return (
     <div className="App">
+    <h1>  Booking Page </h1>
 
     <BookingsForm addBooking={addBooking}/>
     <HotelBookings bookings ={bookings} removeBooking={removeBooking} updateHotelBooking={updateHotelBooking}/>
